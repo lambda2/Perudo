@@ -1,0 +1,14 @@
+INPUT(
+./release\configuration.o
+./release\connecter.o
+./release\identification.o
+./release\LClient.o
+./release\LDebug.o
+./release\main.o
+./release\mainwindow.o
+./release\moc_configuration.o
+./release\moc_connecter.o
+./release\moc_identification.o
+./release\moc_mainwindow.o
+./release\qrc_ressouces.o
+);

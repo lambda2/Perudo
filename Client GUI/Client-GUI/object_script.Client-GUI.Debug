@@ -1,0 +1,14 @@
+INPUT(
+./debug\configuration.o
+./debug\connecter.o
+./debug\identification.o
+./debug\LClient.o
+./debug\LDebug.o
+./debug\main.o
+./debug\mainwindow.o
+./debug\moc_configuration.o
+./debug\moc_connecter.o
+./debug\moc_identification.o
+./debug\moc_mainwindow.o
+./debug\qrc_ressouces.o
+);

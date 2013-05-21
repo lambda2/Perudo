@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Connecter</class>
+ <widget class="QDialog" name="Connecter">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>409</width>
+    <height>165</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Perudo : connexion</string>
+  </property>
+  <property name="sizeGripEnabled">
+   <bool>false</bool>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="layoutDirection">
+      <enum>Qt::RightToLeft</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="ressouces.qrc">:/res/res/Iago_64.png</pixmap>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLabel" name="LabelConnexion">
+     <property name="font">
+      <font>
+       <pointsize>16</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>Connexion</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QSplitter" name="splitter_5">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <widget class="QSplitter" name="splitter_4">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <widget class="QSplitter" name="splitter">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QSplitter" name="splitter_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <widget class="QLabel" name="LabelAdresse">
+           <property name="text">
+            <string>Adresse</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="LineEditAdresse">
+           <property name="text">
+            <string>127.0.0.1</string>
+           </property>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QSplitter" name="splitter_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <widget class="QLabel" name="LabelPort">
+          <property name="text">
+           <string>Port</string>
+          </property>
+         </widget>
+         <widget class="QSpinBox" name="SpinBoxPort">
+          <property name="suffix">
+           <string/>
+          </property>
+          <property name="minimum">
+           <number>1024</number>
+          </property>
+          <property name="maximum">
+           <number>65535</number>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QPushButton" name="BoutonConnexion">
+        <property name="text">
+         <string>Connexion</string>
+        </property>
+        <property name="icon">
+         <iconset resource="ressouces.qrc">
+          <normaloff>:/res/res/64/Dialog-Apply-64.png</normaloff>:/res/res/64/Dialog-Apply-64.png</iconset>
+        </property>
+       </widget>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="BoutonQuitter">
+       <property name="text">
+        <string>Quitter</string>
+       </property>
+       <property name="icon">
+        <iconset resource="ressouces.qrc">
+         <normaloff>:/res/res/64/Gnome-Application-Exit-64.png</normaloff>:/res/res/64/Gnome-Application-Exit-64.png</iconset>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="ressouces.qrc"/>
+ </resources>
+ <connections/>
+</ui>
